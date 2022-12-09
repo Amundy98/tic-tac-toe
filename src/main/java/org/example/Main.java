@@ -24,7 +24,7 @@ public class Main {
             System.out.println("Pick a spot 1-9:");
             int playerPos = scan.nextInt();
             while (playerPositions.contains(playerPos) || cpuPositions.contains(playerPositions)){
-                System.out.println("Position take! Try again.");
+                System.out.println("Position taken! Try again.");
                 playerPos = scan.nextInt();
             }
 
